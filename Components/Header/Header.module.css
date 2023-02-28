@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+}
+.logo{
+    margin-right: 1rem;
+    color: #23074D;
+}
+
+.names{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    color: #CC5333;
+    font-weight: 300;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+}
+
+.social{
+margin-left: 1rem;
+}
+
+@media (max-width: 640px){
+.header{
+    padding: 1rem;
+}
+.name{
+    display: none;
+}
+}
+

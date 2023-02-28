@@ -1,0 +1,67 @@
+.Hero{
+    background: linear-gradient(99.77deg, #CC5333 -18.79%, #23074D 132.81%);
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+   place-items: center;
+    padding: 0 4rem;
+}
+
+.placement{
+    width:fit-content;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    background-color: #23074D;
+}
+
+.brief{
+    margin-left: 5rem;
+    width:50ch;
+    color: white;
+}
+
+.brief h1{
+font-size: 3rem;
+}
+
+.tani{
+    color: #23074D;
+}
+
+@media (width >= 801px) and (width <=1050px ){
+.placement{
+    width: 100%;
+}
+
+}
+
+@media (max-width: 800px){
+    .Hero{
+        padding: 1rem;
+        height: 80vh;
+    }
+
+    .placement{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .brief{
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+    }
+}
