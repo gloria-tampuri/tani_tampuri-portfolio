@@ -1,5 +1,6 @@
 import Header from 'Components/Header/Header'
 import Hero from 'Components/Hero/Hero'
+import MyWorks from 'Components/MyWorks/MyWorks'
 import Tech from 'Components/Tech/Tech'
 import Head from 'next/head'
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Header/>
         <Hero/>
         <Tech/>
+        <MyWorks/>
         </main>
     </>
   )

@@ -1,0 +1,75 @@
+.works h1{
+    background: linear-gradient(261.64deg, #AA4439 -24.54%, #531D46 123.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    width: fit-content;
+    margin: 4rem auto 2rem auto;
+    font-size: 2.5rem;
+}
+
+.allWorks{
+    width: 60%;
+    margin: 4rem auto;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-auto-rows: minmax(200px, 1fr); */
+}
+
+.work{
+    overflow: hidden ;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    border-radius: 0.5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pic{
+    background-color: #531D46;
+}
+.image{
+    width: 100%;
+}
+
+.discription{
+    background-color: #0C2850;
+    height: 100%;
+    padding:1rem;
+    color: white;
+}
+
+.discription2{
+    height: 100%;
+    padding:1rem;
+    background-color: #18828F;
+    color: white;
+}
+
+.discription3{
+    height: 100%;
+    padding:1rem;
+    background-color: #23272F;
+    color: white;
+}
+
+.discription4{
+    height: 100%;
+    padding:1rem;
+    background-color: #206B54;
+    color: white;
+}
+
+
+.link{
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 800px){
+    .allWorks{
+        width: 80%;
+    }
+}
