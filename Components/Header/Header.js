@@ -6,12 +6,36 @@ import git from '/public/icons/github.svg'
 import linkedIn from '/public/icons/linkedIn.svg'
 import twitter from '/public/icons/twitter (2).svg'
 import instagram from '/public/icons/instagram (2).svg'
+import { motion } from 'framer-motion'
 
+
+// Framer motion
+const logoVariant = {
+  hidden:{
+    y: "-100px",
+    opacity: 0
+  },
+  show:{
+    y: 0,
+    opacity: [-2,-1,0,1,2],
+    transition:{
+      duration: 0.3,
+      type: "spring",
+      damping: 10,
+      // stiffness: 100
+    }
+  }
+}
 const Header = () => {
+
   return (
     <div className={classes.header} >
         <div className={classes.names}>
-          <h1 className={classes.logo}>GTT</h1>
+          <motion.h1 
+          variants={logoVariant}
+          initial="hidden"
+          animate="show"
+          className={classes.logo}>GTT</motion.h1>
           <h2 className={classes.name}>Gloria Tani Tampuri</h2>
         </div>
         <div className={classes.socials}>
