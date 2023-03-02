@@ -40,12 +40,20 @@
     padding:1rem;
     color: white;
 }
+.discription h4{
+    margin: 0.5rem 0;
+    color: #F1B23F;
+}
 
 .discription2{
     height: 100%;
     padding:1rem;
     background-color: #18828F;
     color: white;
+}
+.discription2 h4{
+    margin: 0.5rem 0;
+    color: #F38A5D;
 }
 
 .discription3{
@@ -54,6 +62,10 @@
     background-color: #23272F;
     color: white;
 }
+.discription3 h4{
+    margin: 0.5rem 0;
+    color: #087EA4;
+}
 
 .discription4{
     height: 100%;
@@ -61,11 +73,16 @@
     background-color: #206B54;
     color: white;
 }
+.discription4 h4{
+    margin: 0.5rem 0;
+    color: #F9E900;
+}
 
 
 .link{
     color: #ccc;
     font-size: 0.8rem;
+    font-style: italic;
 }
 
 @media (max-width: 800px){

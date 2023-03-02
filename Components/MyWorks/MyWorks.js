@@ -20,7 +20,7 @@ const MyWorks = () => {
           </div>
           <div className={classes.discription}>
             <h4>Gabnet Website</h4>
-            <p>This is an ecommerce website for Gabnet.</p>
+            <p>This is an ecommerce website for a shop that specialises in selling printing equipments. Here clients can search and know whats available at the shop and also make enquires</p>
             <Link className={classes.link} href='https://www.gabnetprinting.com'>www.gabnetprinting.com</Link>
           </div>
         </div>
@@ -31,8 +31,8 @@ const MyWorks = () => {
           </div>
 
           <div className={classes.discription2}>
-            <h4>Congas</h4> 
-            <p> This is an online portal use to order for gas pickup and delivery </p>
+            <h4>ConGas</h4> 
+            <p> I collabrated with a team of developers to develope an online portal where clients can sit at the comfort of thier homes and ask for thier empty domestic gas to be picked up, refilled and delivered back to them.  </p>
             <Link className={classes.link} 
              href='https://www.congasgh.com'>www.congasgh.com</Link>
           </div>
@@ -45,7 +45,7 @@ const MyWorks = () => {
 
           <div className={classes.discription3}>
             <h4>Homewell Ventures</h4>
-            <p>Business management system </p>
+            <p>Record keeping management system for a catfish farm which is used to keep inventory of all activities that go on in the farm. The system also manages records of sales and mortality of fishes</p>
             <Link href='www.gabnetprinting.com'></Link>
           </div>
         </div>
@@ -57,7 +57,7 @@ const MyWorks = () => {
 
           <div className={classes.discription4}>
             <h4>Green-Fields Staff Portal</h4>
-            <p>Farm Record keeping management system</p>
+            <p>This is a business management system used by staff of the Green-Fields farm. Based on staff roles, staff are able to add, edit and delete what goes into the system. Here equipments purchased are input into the system and revenue they make. Also, crops sown and all activities surrounding them are input into the system.</p>
             <Link href='www.gabnetprinting.com'></Link>
           </div>
         </div>

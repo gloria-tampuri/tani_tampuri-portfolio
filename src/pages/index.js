@@ -1,3 +1,4 @@
+import Footer from 'Components/Footer/Footer'
 import Header from 'Components/Header/Header'
 import Hero from 'Components/Hero/Hero'
 import MyWorks from 'Components/MyWorks/MyWorks'
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero/>
         <Tech/>
         <MyWorks/>
+        <Footer/>
         </main>
     </>
   )
