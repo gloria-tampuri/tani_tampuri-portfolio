@@ -39,10 +39,10 @@ const Header = () => {
           <h2 className={classes.name}>Gloria Tani Tampuri</h2>
         </div>
         <div className={classes.socials}>
-        <Link href={''}>  <Image src={git} alt='github' width={25} height={25}/></Link>
-         <Link  href={''}> <Image className={classes.social} src={linkedIn} alt='LinkedIn' width={25} height={25}/></Link>
-          <Link  href={''}><Image className={classes.social} src={twitter} alt='twitter' width={25} height={25}/></Link>
-         <Link  href={''}> <Image className={classes.social} src={instagram} alt='instagram' width={25} height={25}/></Link>
+        <Link href="https://github.com/gloria-tampuri">  <Image src={git} alt='github' width={25} height={25}/></Link>
+         <Link  href='https://www.linkedin.com/in/gloria-tampuri-6ab397157'> <Image className={classes.social} src={linkedIn} alt='LinkedIn' width={25} height={25}/></Link>
+          <Link  href='https://twitter.com/glow_tani'><Image className={classes.social} src={twitter} alt='twitter' width={25} height={25}/></Link>
+         <Link  href="https://instagram.com/just_tani?igshid=YmMyMTA2M2Y="> <Image className={classes.social} src={instagram} alt='instagram' width={25} height={25}/></Link>
         </div>
     </div>
   )
