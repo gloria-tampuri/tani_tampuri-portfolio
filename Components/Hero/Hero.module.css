@@ -19,7 +19,7 @@
 .image{
     width: 400px;
     height: 400px;
-    /* background-color: #23074D; */
+    background-color: transparent;
     overflow: hidden;
     border: 7px solid white;
 }
