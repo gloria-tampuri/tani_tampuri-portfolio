@@ -52,6 +52,7 @@ justify-content: center; */
 
 @media (max-width: 800px){
     .Hero{
+        min-height: 630px;
         padding: 1rem;
         height: 80vh;
     }
