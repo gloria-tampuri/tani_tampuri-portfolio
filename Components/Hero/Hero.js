@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './Hero.module.css'
-import gloria from '/public/icons/glow.jpg'
+import gloria from '/public/icons/profile-photo-2.png'
 import Typewriter from 'typewriter-effect'
 import Image from 'next/image'
 
@@ -10,7 +10,7 @@ const Hero = () => {
 
             <div className={classes.placement}>
                 <div className={classes.image}>
-                    <Image className={classes.img} src={gloria} alt='gloria' width={200} height={200}/>
+                    <Image className={classes.img} src={gloria} alt='gloria' width={200} height={200} priority/>
                 </div>
                 <div className={classes.brief}>
                     <h1>Hi, I am <span className={classes.tani}>
