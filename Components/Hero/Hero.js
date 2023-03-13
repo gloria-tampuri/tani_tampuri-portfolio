@@ -10,7 +10,7 @@ const Hero = () => {
 
             <div className={classes.placement}>
                 <div className={classes.image}>
-                    <Image className={classes.img} src={gloria} alt='gloria' width={200} height={200} priority/>
+                    <Image className={classes.img} src={gloria} alt='gloria' width={500} height={500} priority/>
                 </div>
                 <div className={classes.brief}>
                     <h1>Hi, I am <span className={classes.tani}>

@@ -78,7 +78,7 @@ const Tech = () => {
         <div className={classes.tech}>
             <h1>What I use to work</h1>
             <div className={classes.techGrid}>
-                {socialIcons.map(tech=><div className={classes.image}><Image src={tech.picture} alt='html' width={100} height={100} /></div>)}
+                {socialIcons.map(tech => <div key={tech.id} className={classes.image}><Image src={tech.picture} alt='html' width={100} height={100} /></div>)}
             </div>
         </div>
     )
