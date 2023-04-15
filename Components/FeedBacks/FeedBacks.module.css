@@ -34,9 +34,14 @@ color:#531D46;
     font-size: 3rem;
     font-weight: 700;
 }
-
+.stars{
+    display: flex;
+    width: 100%;
+    place-items: center;
+    justify-content: center;
+}
 .text{
-    /* background: linear-gradient(261.64deg, #AA4439 -24.54%, #531D46 123.69%); */
+    /* background: linear-gradient(261.64deg, #AA4439 -24.54%, #531D46 123.69%); */    min-height:400px;
     padding: 1rem 1rem 4rem 1rem;
     background-color: #F6F6F6;
     border-radius: 1rem;
