@@ -1,0 +1,51 @@
+.Services{
+    margin: 4rem 0;
+   text-align: center;
+   width:80%;
+   margin: 0 auto;
+}
+
+.Services h1{
+    font-size: 2.5rem;
+    background: linear-gradient(261.64deg, #AA4439 -24.54%, #531D46 123.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: fit-content;
+    margin: 4rem auto 2rem auto;
+}
+
+.group{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service{
+    background-color: #F6F6F6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #571F46;
+    text-align: left;
+    /* color: white; */
+    }
+
+    .service h3{
+        margin: 0.5rem 0;
+        font-weight: 700;
+    }
+
+    .circle{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 100%;
+    background: linear-gradient(261.64deg, #AA4439 -24.54%, #531D46 123.69%);
+
+    }
+
+    @media (max-width: 800px){
+        .group{
+            flex-direction: column;
+        }
+    }

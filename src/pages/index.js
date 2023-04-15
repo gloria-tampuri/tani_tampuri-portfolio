@@ -1,7 +1,9 @@
+import Feedbacks from 'Components/FeedBacks/Feedbacks'
 import Footer from 'Components/Footer/Footer'
 import Header from 'Components/Header/Header'
 import Hero from 'Components/Hero/Hero'
 import MyWorks from 'Components/MyWorks/MyWorks'
+import Services from 'Components/Services/Services'
 import Tech from 'Components/Tech/Tech'
 import Head from 'next/head'
 
@@ -20,6 +22,8 @@ export default function Home() {
         <Hero/>
         <Tech/>
         <MyWorks/>
+        <Services/>
+        <Feedbacks/>
         <Footer/>
         </main>
     </>
