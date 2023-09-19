@@ -10,7 +10,7 @@
 }
 
 .allWorks{
-    width: 60%;
+    width: 80%;
     margin: 4rem auto;
     display: grid;
     gap: 5rem;
@@ -77,7 +77,29 @@
     margin: 0.5rem 0;
     color: #F9E900;
 }
+.discription5{
+    height: 100%;
+    padding:1rem;
+    background-color: #345FF6;
+    color: white;
+}
 
+.discription5 h4{
+    margin: 0.5rem 0;
+    color: rgb(46, 46, 46);
+}
+
+.discription6{
+    height: 100%;
+    padding:1rem;
+    background-color: #a3bbdb;
+    color: white;
+}
+
+.discription6 h4{
+    margin: 0.5rem 0;
+    color: #345FF6;
+}
 
 .link{
     color: #ccc;
