@@ -12,7 +12,7 @@ const Feedbacks = () => {
          <div className={classes.feed}>
          <div className={classes.text}>
             <p className={classes.quote}>"</p>
-            <p>As a fullstack developer, statisfying clients and meeting deadlines can be hectic, so i reach out to the best talents to help meet deadlines. Tani is an amazing font-end dev, with solid understanding of front-end concepts. Her codes are clean and makes connecting them to my apis so simple</p>
+            <p>As a fullstack developer, statisfying clients and meeting deadlines can be hectic, so i reach out to the best talents to help meet deadlines. Tani is an amazing front-end dev, with solid understanding of front-end concepts. Her codes are clean and makes connecting them to my apis so simple</p>
             <div className={classes.stars}>
               <VscStarFull/>
               <VscStarFull/>
