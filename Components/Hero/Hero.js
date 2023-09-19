@@ -20,7 +20,7 @@ const Hero = () => {
                             loop: true
                         }} />
                     </span></h1>
-                    <p>A Frontend developer with a passion for solving problems by creating immersive user experience on software and websites which are optimized for any device. I have a strong eye for innovative design and an in-depth understanding of techniques geared towards optimum user experience. I am constantly learning to keep up with the ever evolving tech community.</p>
+                    <p>I'm a Frontend developer driven by a passion for problem-solving, striving to craft captivating user experiences on software and websites that seamlessly adapt to any device. My work is marked by a keen eye for innovative design and a profound grasp of techniques aimed at delivering the utmost in user satisfaction. In the dynamic landscape of technology, I maintain a commitment to continuous learning, ensuring that I remain in step with the ever-evolving tech community.</p>
                 </div></div>
 
         </div>
