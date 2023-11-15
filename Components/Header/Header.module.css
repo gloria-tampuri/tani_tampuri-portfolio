@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding:1rem 2rem;
+    position: relative;
 }
 .logo{
     margin-right: 1rem;
@@ -26,6 +27,31 @@
 
 .social{
 margin-left: 1rem;
+/* position: relative; */
+}
+
+.contact{
+    font-size: 25px;
+    margin-right:0.5rem;
+}
+
+.view{
+    font-size: 0.8rem;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+     border-radius: 0.3rem;
+    /* background: linear-gradient(99.77deg, #CC5333 -18.79%, #23074D 132.81%); */
+    background-color: white;
+     position: absolute;
+     right: 50px;
+     color: #23074D;
+     font-weight: 700;
+}
+.handleContact p{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 @media (max-width: 640px){
@@ -34,6 +60,13 @@ margin-left: 1rem;
 }
 .name{
     display: none;
+}
+.contact{
+    font-size: 25px;
+    margin-right:0.5rem;
+    /* position: fixed; */
+    /* top: 27px;
+    right: 170px; */
 }
 }
 
